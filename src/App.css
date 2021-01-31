@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App-main {
+  width: 65%;
 }
 
 .App-link {
-  color: #61dafb;
+  color: grey;
+  font-size: small;
+  margin: 5px;
+  flex: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Footer-txt {
+  font-size: xx-small;
+  text-align: left;
+  vertical-align:bottom;
+  margin: 2%;
+}
+
+.Footer-social {
+  display: flex;
+  align-items: right;
+  flex-wrap: wrap;
+  font-size: small;
+  /* text-align: right; */
+  vertical-align:bottom;
+  /* margin: 2%; */
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  /* align-self: center; */
+  font-size: x-large;
+  text-align: center;
+  vertical-align: middle;
+  margin: 1%;
+}
+
+.App-center {
+  font-size: xx-large;
+}
+
+.App-image {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.App-sm-txt {
+  font-size: smaller;
+}
+
+.App-nav {
+  margin-bottom: 7%;
+}
+
+.App-social-icon {
+  height: 20px;
+  width: 20px;
+  margin-left: 50%;
+}
+
+.Icon-margin {
+  margin-left:2% ;
+}
+
+.Icon-link {
+  color: black;
 }

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { BrowserRouter, Route, NavLink, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Row from "react-bootstrap/Row";
@@ -6,7 +6,6 @@ import Col from "react-bootstrap/Col";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Image from "react-bootstrap/Image";
-import Media from "react-bootstrap/Media";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { faPhoneSquare} from '@fortawesome/free-solid-svg-icons';

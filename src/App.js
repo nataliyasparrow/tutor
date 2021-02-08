@@ -19,6 +19,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import Curriculum from './Curriculum';
 import Scheduler from './Scheduler';
+// import Scheduler from './Scheduler_v2';
 import Reviews from './Reviews';
 
 

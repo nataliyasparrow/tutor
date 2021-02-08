@@ -9,18 +9,11 @@ import Button from "react-bootstrap/Button";
 
 
 export default function Scheduler(){
-    const [status, setStatus] = useState(false);
-
     const handleSubmit = e => {
         alert('Email has been sent! Thanks!');
-        e.preventDefault();       
+        e.preventDefault()
+        
     }
-
-    const handleClick = e => {
-        console.log("Click!");
-        setStatus(true);
-    }
-
 return (
 <Container>
     <p className="App-sm-txt">You can schedule a trial lesson, a regular lesson, or an information meeting.</p>
@@ -30,17 +23,14 @@ return (
     </Col> */}
     <Col>
         <iframe src="https://calendar.google.com/calendar/embed?src=edhbvjkis41a2a0hb4dgfamd0k%40group.calendar.google.com&ctz=America%2FLos_Angeles" 
-            width="600" 
-            height="450" 
-            frameBorder="0" 
+            width="640" 
+            height="480" frameborder="0" 
             scrolling="no">
         </iframe>
     </Col>
     <Col>
-    <p className="App-sm-txt">If you are ready to schedule a meeting, please input your data below</p>
+    <p className="App-sm-txt">If you are ready to schedule a meeting, please input your data and send to me!</p>
     <p className="App-sm-txt">I'll response you ASAP. Thank you!</p>
-    {status ?
-    (
     <Form onSubmit={handleSubmit}>
     <Form.Row>
         <Col>
@@ -74,7 +64,7 @@ return (
         </Col>
         <Col>
         <Form.Group controlId="formDuration">
-            <Form.Label size="sm">Duration</Form.Label>
+            <Form.Label size="sm">Duration (in mins)</Form.Label>
             <Form.Control size="sm" variant="secondary" type="number" />
         </Form.Group>
         </Col>
@@ -91,8 +81,6 @@ return (
             Send email
         </Button>
     </Form>
-    ) : 
-    (<Button variant="secondary" size="sm" onClick = { handleClick }>Yes, I'm ready!</Button>) } 
     </Col>
 </Container>
 );

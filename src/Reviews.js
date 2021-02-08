@@ -8,7 +8,7 @@ export default function Reviews(){
 return (
 <Container>
     <Col>
-        <p>Issac, 4th grade student:</p>
+        <p>Isaac, 4th grade student:</p>
         <p className="App-sm-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
         <p>Galileo, 10th grade student:</p>
         <p className="App-sm-txt">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
